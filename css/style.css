@@ -91,3 +91,24 @@ footer {
   font-size: 13px;
   font-weight: bold;
 }
+
+
+
+.btn-restart-theme {
+  background-color: #152fdc;
+  color:#eee;
+}
+
+.btn-restart-theme:hover {
+  color:#fff;
+}
+
+.teams-name {
+  font-size: 10px;
+}
+
+button, 
+a.btn, 
+.page-title {
+  font-family: "Simonetta";
+}
