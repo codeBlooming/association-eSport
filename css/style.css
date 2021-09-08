@@ -1,3 +1,22 @@
+html,
 body {
-  background-color: blue;
+  background: linear-gradient(70deg, #152fdc, #171b32, #b39742);
+  background-repeat: no-repeat;
+  margin: 0;
+}
+
+
+footer {
+  padding: 10px;
+  background: #eee;
+}
+
+.content {
+  padding-top: 68px;
+  min-height: calc(100vh - 52px);
+}
+
+.bootStrap-dark-background {
+  background-color: #343a40;
+  color: #eee;
 }
