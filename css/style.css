@@ -36,3 +36,10 @@ footer {
 .banner {
   width: 100%;
 }
+
+.home-content{
+  font-size: 20px;
+}
+.subtitle{
+  margin:20px;
+}
