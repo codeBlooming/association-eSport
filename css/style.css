@@ -121,3 +121,27 @@ a.btn,
 table {
   font-size: 13px;
 }
+
+.page-title {
+  color: #eee;
+  font-size: 20px;
+}
+
+/* Small devices (576px and up) */
+@media screen and (min-width: 576px) {
+  .teams-name {
+    font-size: 16px;
+  }
+
+  .page-title {
+    display: none;
+  }
+
+  table {
+    font-size: 20px;
+    max-width: 700px;
+  }
+  h1 {
+    font-size: 24px;
+  }
+}
