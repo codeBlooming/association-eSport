@@ -112,3 +112,12 @@ a.btn,
 .page-title {
   font-family: "Simonetta";
 }
+
+.check-mark {
+  width: 16px;
+  height: 16px;
+}
+
+table {
+  font-size: 13px;
+}
