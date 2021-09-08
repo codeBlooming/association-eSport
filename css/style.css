@@ -1,8 +1,36 @@
+/*FONTS IMPORT*/
+@font-face {
+  font-family: "Simonetta";
+  src: url("../fonts/Simonetta-Black.ttf");
+}
+@font-face {
+  font-family: "Lato";
+  src: url("../fonts/Lato-BoldItalic.ttf");
+}
+@font-face {
+  font-family: "Maven Pro";
+  src: url("../fonts/MavenPro-Regular.ttf");
+}
+
+
 html,
 body {
+  font-family: "Maven Pro";
   background: linear-gradient(70deg, #152fdc, #171b32, #b39742);
   background-repeat: no-repeat;
   margin: 0;
+}
+
+
+h1{
+  font-family: "Lato";
+  font-size: 20px;
+}
+
+h2 {
+  font-family: "Maven Pro";
+  font-size: 16px;
+  font-weight: bold;
 }
 
 
@@ -39,6 +67,10 @@ footer {
 
 .home-content{
   font-size: 20px;
+  padding: 20px;
+  width: 100%;
+  text-align: left;
+  margin: auto;
 }
 .subtitle{
   margin:20px;
