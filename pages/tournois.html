@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Association E-Sport</title>
+    <meta name="description" content="Restart eSport est une association constituée de passionnés du jeu vidéo. Rejoignez-nous pour participer à des tournois et des championnats" />
+    <link href="../css/bootstrap.4.6.0.min.css" rel="stylesheet" />
+    <link href="../css/style.css" rel="stylesheet"/>
+  </head>
+  <body>
+    <div class="container shadow ">
+      <header class="row">
+        <div class="col p-0">
+          <nav class="navbar navbar-expand-sm navbar-dark bg-dark shadow fixed-top">
+            <img src="../images/global/logo.svg" alt="RESTART-logo" class="navbar-brand logo mr-0"/>
+
+            <span class="page-title">Adhésion</span>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-toggle="collapse"
+              data-target="#navbarNav"
+              aria-controls="navbarNav"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link" href="../index.html">Accueil</a>
+                </li>
+                <li class="nav-item ">
+                  <a class="nav-link" href="./equipes-esport.html">Equipes</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./actualites.html">Actualités</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./adhesion.html">Adhésion</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" href="#">Tournois <span class="sr-only">(current)</span></a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+        </div>
+      </header>
+
+      <section class="row content bootStrap-dark-background">
+        <article class="col p-10 d-flex justify-content-center flex-column ">    
+          <div class="subtitle">
+            <h1>Les prochains tournois</h1>
+          </div>      
+         <div class="loader" style="display: none; align-items: center;justify-content: center;"><img src="../images/global/loader.png" alt=""></div>
+          <div id="tournaments" style="display: flex; flex-direction: column; align-items: center;height:100%"></div>
+                   
+        </article>
+      </section>
+
+      <footer class="row">
+        <div class="col p-0 text-center">
+          <a href="#">
+            <img src="../images/global/facebook-square-brands.svg" alt="Rejoignez nous sur facebook" class="social-network-icons"/>
+          </a>
+          <a href="#">
+            <img src="../images/global/discord-brands.svg" alt="Rejoignez nous sur discord" class="social-network-icons" />
+          </a>
+          <a href="#">
+            <img src="../images/global/twitter-square-brands.svg" alt="Suivez nous sur twitter" class="social-network-icons" />
+          </a>
+          <a href="#">
+            <img src="../images/global/twitch-brands.svg" alt="Regardez nous sur twitch" class="social-network-icons" />
+          </a>
+        </div>
+      </footer>
+    </div>
+  </body>
+  <script src="../js/jquery-3.6.0.min.js"></script>
+  <script src="../js/bootstrap.4.6.0.bundle.min.js"></script>
+  <script src="../js/axios.min.js"></script>
+  <script src="../js/functions.js"></script>
+</html>
